@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    font-family: "Sarabun", sans-serif;
+}
+
+body {
+    background-color: #FFF7FC;
+}
+
+.active-nav {
+    background-color: #f8f9fa;
+    /* Background color for active item */
+    color: #000000;
+    /* Text color for active item */
+}
+
+.navbar2 {
+    background: linear-gradient(135deg, #8B93FF, #6B73D2);
+    /* สีพื้นหลัง Navbar เป็น gradient */
+    background-size: 200% 200%;
+    /* ขนาดของ gradient */
+    animation: gradientAnimation 10s ease infinite;
+    /* animation สำหรับ gradient */
+    overflow: hidden;
+    bottom: 0;
+    padding: 25px;
+    width: 100%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    /* เพิ่มเอฟเฟกต์ shadow */
+    transition: padding 0.3s, box-shadow 0.3s;
+    color: #fff;
+}
+
+/* Center */
+.content1 {
+    padding: 2rem 0;
+}
+
+.content1 h1 {
+    color: #343a40;
+}
+
+.content1 p {
+    font-size: 1.2rem;
+    color: #6c757d;
+
+}
+
+.left-column {
+    flex: 0 0 auto; /* ไม่ยืดหยุ่นขนาด */
+}
+
+.right-column {
+    flex: 1; /* ขยายให้เต็มพื้นที่ที่เหลือของ content1 */
+}
+
+.shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+    border-radius: 10px;
+}
+
+.hero-section {
+    padding: 50px 0;
+}
+.hero-section h1 {
+    color: #2c3e50;
+    animation: fadeInDown 1s;
+}
+.hero-section h6 {
+    color: #34495e;
+    animation: fadeInDown 1s;
+}
+.hero-section .btn-primary {
+    animation: fadeInDown 1s;
+}
+
+.hero-section .img-fluid {
+    animation: fadeInDown 1s;
+}
+.shadow-lg {
+    transition: transform 0.2s;
+}
+.shadow-lg:hover {
+    transform: scale(1.05);
+}
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

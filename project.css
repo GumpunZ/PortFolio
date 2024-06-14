@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+.content {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.more-text {
+    display: none;
+}
+
+.navbar {
+    background: linear-gradient(135deg, #8B93FF, #6B73D2);
+    /* สีพื้นหลัง Navbar เป็น gradient  */
+    background-size: 200% 200%;
+    /* ขนาดของ gradient */
+    animation: gradientAnimation 10s ease infinite;
+    /*  animation สำหรับ gradient */
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+        /* เริ่มต้นที่ด้านซ้ายล่าง */
+    }
+
+    50% {
+        background-position: 100% 50%;
+        /* 50% ของ animation ที่ด้านขวาบน */
+    }
+
+    100% {
+        background-position: 0% 50%;
+        /* จบที่ด้านซ้ายล่าง */
+    }
+}
+
+.navbar-brand {
+    color: #fff;
+    /* Navbar brand text color */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    /* Navbar links text color */
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #3D3C42;
+    /* Navbar links text color on hover */
+}
+
+/* Container for the cards */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Individual card styling */
+.card {
+    animation: fadeInDown 1s;
+    transition: all 0.3s ease;
+    border: none;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+
+
+/* Card body */
+.card-body {
+    padding: 20px;
+}
+
+/* Card title */
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Date */
+.text-muted {
+    font-size: 0.875rem;
+    color: #666;
+}
+
+/* Description text */
+.text {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* "Show More" link */
+.show-more-btn {
+    color: rgb(161, 161, 161);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.show-more-btn:hover {
+    text-decoration: none;
+}
+
+/* GitHub link button */
+.btn-primary {
+    background-color: #8B93FF;
+    border-color: #8B93FF;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #6B73D2;
+    border-color: #6B73D2;
+}
+
+/* Button group */
+.btn-group {
+    margin-top: 15px;
+}
+
+/*Under Page */
+/* Style the links inside the navigation bar */
+/* Under Page Navbar */
+
+.navbar1 {
+    background: linear-gradient(135deg, #8B93FF, #6B73D2);
+    /* สีพื้นหลัง Navbar เป็น gradient */
+    background-size: 200% 200%;
+    /* ขนาดของ gradient */
+    animation: gradientAnimation 10s ease infinite;
+    /* animation สำหรับ gradient */
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    /* เพิ่มเอฟเฟกต์ shadow */
+    transition: padding 0.3s, box-shadow 0.3s;
+    color: #fff;
+}
+
+
+.navbar1 div {
+    margin-bottom: 10px;
+    /* ระยะห่างของแต่ละช่องข้อมูล */
+}
+
+.navbar1 .navbar-brand {
+    color: #fff;
+    /* Navbar brand text color */
+    font-weight: bold;
+}
+
+
