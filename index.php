@@ -40,6 +40,7 @@
         <div class="container hero-section">
             <div class="row align-items-center">
                 <div class="col-12 col-md-6">
+                    <br>
                     <img class="shadow-lg img-fluid" src="images/insect.png" alt="Your Image">
                 </div>
                 <div class="col-12 col-md-6">
@@ -53,7 +54,7 @@
             </div>
         </div>
 
-        <div class="navbar2">
+        <div class="navbar1">
             <div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github"
                     viewBox="0 0 16 16">
@@ -69,7 +70,7 @@
                     <path
                         d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0" />
                 </svg>
-                0630525780
+                063-052-5780
             </div>
             <div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github"

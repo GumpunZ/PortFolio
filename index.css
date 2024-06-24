@@ -48,11 +48,13 @@ body {
 }
 
 .left-column {
-    flex: 0 0 auto; /* ไม่ยืดหยุ่นขนาด */
+    flex: 0 0 auto;
+    /* ไม่ยืดหยุ่นขนาด */
 }
 
 .right-column {
-    flex: 1; /* ขยายให้เต็มพื้นที่ที่เหลือของ content1 */
+    flex: 1;
+    /* ขยายให้เต็มพื้นที่ที่เหลือของ content1 */
 }
 
 .shadow-lg {
@@ -63,14 +65,17 @@ body {
 .hero-section {
     padding: 50px 0;
 }
+
 .hero-section h1 {
     color: #2c3e50;
     animation: fadeInDown 1s;
 }
+
 .hero-section h6 {
     color: #34495e;
     animation: fadeInDown 1s;
 }
+
 .hero-section .btn-primary {
     animation: fadeInDown 1s;
 }
@@ -78,19 +83,26 @@ body {
 .hero-section .img-fluid {
     animation: fadeInDown 1s;
 }
+
 .shadow-lg {
     transition: transform 0.2s;
 }
+
 .shadow-lg:hover {
     transform: scale(1.05);
 }
+
 @keyframes fadeInDown {
     from {
         opacity: 0;
         transform: translateY(-20px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
     }
 }
+
+
+
